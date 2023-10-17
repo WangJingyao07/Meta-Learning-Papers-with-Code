@@ -7,4 +7,6 @@ This repository contains a reading list of papers with code on **Meta-Learning**
 
 Each paper may be applicable to one or more types of meta-learning frameworks, including optimization-based and metric-based, and may be applicable to multiple data sources, including image, text, audio, video, and multi-modality. **These are marked in the type column**. In addition, for different tasks and different problems, **we have marked the SOTA algorithm separately**. This is submitted with reference to the leadboard at the time of submission, and will be continuously modified. **We provide a basic introduction to each paper to help you understand the work and core ideas of this article more quickly**.
 
-* ![optimization-based](https://img.shields.io/badge/-Optimization-brightgreen) optimization-based
+* ![optimization-based](https://img.shields.io/badge/-Optimization-brightgreen) Optimization-based meta-learning approaches acquire a collection of optimal initial parameters, facilitating rapid convergence of a model when adapting to novel tasks.
+* ![metric-based](https://img.shields.io/badge/-Metric-red)  Metric-based meta-learning approaches acquire embedding functions that transform instances from various tasks, allowing them to be readily categorized using non-parametric methods.
+* 
