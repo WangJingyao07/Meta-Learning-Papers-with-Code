@@ -10,12 +10,12 @@ Each paper may be applicable to one or more types of meta-learning frameworks, i
 ### Label
 
 🎨 **Different Types**
-* ![optimization-based](https://img.shields.io/badge/-Optimization-brightgreen) Optimization-based meta-learning approaches acquire a collection of optimal initial parameters, facilitating rapid convergence of a model when adapting to novel tasks.
+* ![optimization-based](https://img.shields.io/badge/-Optimization-blue) Optimization-based meta-learning approaches acquire a collection of optimal initial parameters, facilitating rapid convergence of a model when adapting to novel tasks.
 * ![metric-based](https://img.shields.io/badge/-Metric-red)  Metric-based meta-learning approaches acquire embedding functions that transform instances from various tasks, allowing them to be readily categorized using non-parametric methods.
 
 ✨ **Different Data Sources**
-* ![Image](https://img.shields.io/badge/-CVimage-brightblue) Meta-Learning for CV (Images)
-* ![Video](https://img.shields.io/badge/-CVvideo-blue) Meta-Learning for CV (Videos)
+* ![Image](https://img.shields.io/badge/-CVimage-brightgreen) Meta-Learning for CV (Images)
+* ![Video](https://img.shields.io/badge/-CVvideo-green) Meta-Learning for CV (Videos)
 * ![Text](https://img.shields.io/badge/-NLP-pink)  Meta-Learning for NLP
 * ![Audio](https://img.shields.io/badge/-Audio-orange)  Meta-Learning for Audio
 * ![Multi](https://img.shields.io/badge/-MultiModal-purple)  Meta-Learning for Multi-modal
