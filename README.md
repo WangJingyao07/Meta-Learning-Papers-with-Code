@@ -14,8 +14,8 @@ Each paper may be applicable to one or more types of meta-learning frameworks, i
 * ![metric-based](https://img.shields.io/badge/-Metric-red)  Metric-based meta-learning approaches acquire embedding functions that transform instances from various tasks, allowing them to be readily categorized using non-parametric methods.
 
 ✨ **Different Data Sources**
-* ![Image](https://img.shields.io/badge/-CVimage-blue) Meta-Learning for CV (Images)
-* ![Video](https://img.shields.io/badge/-CVvideo-deepblue) Meta-Learning for CV (Videos)
+* ![Image](https://img.shields.io/badge/-CVimage-brightblue) Meta-Learning for CV (Images)
+* ![Video](https://img.shields.io/badge/-CVvideo-blue) Meta-Learning for CV (Videos)
 * ![Text](https://img.shields.io/badge/-NLP-pink)  Meta-Learning for NLP
 * ![Audio](https://img.shields.io/badge/-Audio-orange)  Meta-Learning for Audio
 * ![Multi](https://img.shields.io/badge/-MultiModal-purple)  Meta-Learning for Multi-modal
