@@ -19,3 +19,5 @@ Each paper may be applicable to one or more types of meta-learning frameworks, i
 * ![Text](https://img.shields.io/badge/-NLP-pink)  Meta-Learning for NLP
 * ![Audio](https://img.shields.io/badge/-Audio-orange)  Meta-Learning for Audio
 * ![Multi](https://img.shields.io/badge/-MultiModal-purple)  Meta-Learning for Multi-modal
+
+It is worth noting that the experiments of some frameworks consist of multiple data sources. Our annotations are based on the paper description.
