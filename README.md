@@ -9,6 +9,10 @@ Each paper may be applicable to one or more types of meta-learning frameworks, i
 
 ### Label
 
+🎭 **Different Frameworks**
+* ![Meta-Learning](https://img.shields.io/badge/-ML-black) Meta-Learning.
+* ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white)  Meta-Reinforcement-Learning.
+
 🎨 **Different Types**
 * ![optimization-based](https://img.shields.io/badge/-Optimization-blue) Optimization-based meta-learning approaches acquire a collection of optimal initial parameters, facilitating rapid convergence of a model when adapting to novel tasks.
 * ![metric-based](https://img.shields.io/badge/-Metric-red)  Metric-based meta-learning approaches acquire embedding functions that transform instances from various tasks, allowing them to be readily categorized using non-parametric methods.
@@ -21,3 +25,25 @@ Each paper may be applicable to one or more types of meta-learning frameworks, i
 * ![Multi](https://img.shields.io/badge/-MultiModal-purple)  Meta-Learning for Multi-modal
 
 It is worth noting that the experiments of some frameworks consist of multiple data sources. Our annotations are based on the paper description.
+
+🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
+
+## Survey.
+
+
+| Date     | Method                                                       | Type                                                         | Conference  | Paper Title and Paper Interpretation (In Chinese)            | Code                                                         |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2019 | [Book of Meta-Learning](https://library.oapen.org/bitstream/handle/20.500.12657/23012/1/1007149.pdf#page=46) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| Book | Meta-Learning (Automated Machine Learning) | None                                                         |
+| 2019 | [Learn dynamics](https://arxiv.org/abs/1905.01320) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| arXiv 2019 | Meta-learners' learning dynamics are unlike learners' | None                                                         |
+| 2020 | [NLP](https://arxiv.org/abs/2007.09604) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| arXiv 2020 | Meta-learning for few-shot natural language processing: A survey | None                                                         |
+| 2020 | [CV-classifier](https://ieeexplore.ieee.org/abstract/document/8951014) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| IEEE Access | A literature survey and empirical study of meta-learning for classifier selection | None                                                         |
+| 2021 | [Learn 2 Learn](https://library.oapen.org/bitstream/handle/20.500.12657/23012/1/1007149.pdf#page=46) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| arXiv 2021 | Meta-Learning: A Survey | None                                                         |
+| 2021 | [Learn 2 Learn 🎈](https://arxiv.org/abs/2004.05439) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| TPAMI | Meta-Learning in Neural Networks: A Survey | None                                                         |
+| 2021 | [Learn 2 Learn](https://arxiv.org/abs/2004.05439) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| Artif Intell Rev |  A survey of deep meta-learning | None                                                         |
+| 2021 | [Learn 2 Learn](https://www.sciencedirect.com/science/article/abs/pii/S2352154621000024) | Current Opinion in Behavioral Sciences | Meta-learning in natural and artificial intelligence | None                                                         |
+| 2022 | [Multi-Modal](https://arxiv.org/abs/2004.05439) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| KBS | Multimodality in meta-learning: A comprehensive survey | None                                                         |
+| 2022 | [Image Segmentation](https://arxiv.org/abs/2004.05439) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| PR | Meta-seg: A survey of meta-learning for image segmentation | None                                                         |
+| 2022 | [Cyberspace Security](https://www.sciencedirect.com/science/article/pii/S2352864822000281) | ![Meta-Learning](https://img.shields.io/badge/-ML-black)| Digit. Commun. Netw. | Application of meta-learning in cyberspace security: A survey | None                                                         |
+
+
+
