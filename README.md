@@ -35,6 +35,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 * ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) The paper does not provide code, I will write it myself and supplement it later.
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
+🚩 **I will maintain three hours of paper reading, code repository maintenance and entry supplement every day 😉).**
 
 ## Topics
 
@@ -84,7 +85,10 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 
 ## Theory
-
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2018 | [MLAP](https://arxiv.org/pdf/1711.01244.pdf) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2018    | Meta-learning by adjusting priors based on extended PAC-Bayes theory      | [CODE](https://github.com/ron-amit/meta-learning-adjusting-priors) |
+| 2017 | [learning algorithm approximation ](https://arxiv.org/pdf/1710.11622.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2018 | Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 
 ## Domain generalization
 
