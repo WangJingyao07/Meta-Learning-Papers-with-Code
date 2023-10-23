@@ -32,7 +32,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 🎁 **Notice**
 
-* ![❗CODE](https://img.shields.io/badge/-❗CODE-brightyellow) The paper does not provide code, I will write it myself and supplement it later.
+* ![❗CODE](https://img.shields.io/badge/-❗CODE-lightyellow) The paper does not provide code, I will write it myself and supplement it later.
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
 
