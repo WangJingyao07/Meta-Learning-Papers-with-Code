@@ -55,7 +55,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 ## Survey.
 
-| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation (In Chinese)            | Code |
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
 | 2018 | [RL L2L](https://arxiv.org/abs/1812.07995) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | arXiv 2018                                   | A review of meta-reinforcement learning for deep neural networks architecture search                   | None |
 | 2019 | [Book of Meta-Learning](https://library.oapen.org/bitstream/handle/20.500.12657/23012/1/1007149.pdf#page=46) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | Book                                   | Meta-Learning (Automated Machine Learning)                   | None |
@@ -74,8 +74,11 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 
 ## Optimization
-| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation (In Chinese)            | Code |
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2016 | [Reversible](https://arxiv.org/pdf/1502.03492.pdf) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2016                                   | Gradient-based Hyperparameter Optimization through Reversible Learning      | [CODE](https://github.com/HIPS/hypergrad) |
+| 2017 | [MRL-GPS](https://arxiv.org/abs/1606.01885) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2017 | Learning to Optimize | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2019 | [L2G](https://arxiv.org/pdf/1908.01457.pdf) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![metric-based](https://img.shields.io/badge/-Metric-red) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | arXiv 2019                                   | Learning to Generalize to Unseen Tasks with Bilevel Optimization   | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 | 2022 | [Sharp-MAML](https://arxiv.org/abs/2206.03996) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2022                                   | Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning                 | [CODE](https://github.com/mominabbass/sharp-maml) |
 | 2022 | [BMG](https://openreview.net/forum?id=b-ny3x071E5) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICLR 2022 | Bootstrapped Meta-Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 
