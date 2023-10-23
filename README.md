@@ -41,11 +41,11 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 * [Survey](#Survey)
 * [Optimization](#Optimization)
 * [Theory](#Theory)
-* [Domain generalization](#Domain generalization)
-* [Lifelong learning](#Lifelong learning)
-* [Configuration transfer](#Configuration transfer)
-* [Model compression](#Model compression)
-* [Summary of conference papers](#Summary of conference papers)
+* [Domain generalization](#Domain-generalization)
+* [Lifelong learning](#Lifelong-learning)
+* [Configuration transfer](#Configuration-transfer)
+* [Model compression](#Model-compression)
+* [Summary of conference papers](#Summary-of-conference papers)
   * [CVPR23](#CVPR23)
   * [ICML23](#ICML23)
   * [ICCV23](#ICCV23)
@@ -84,6 +84,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 
 ## Domain generalization
+
 
 ## Lifelong learning
 
