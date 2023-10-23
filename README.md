@@ -32,8 +32,16 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
 
-## Survey.
+## Topics
 
+* [Survey](#Survey)
+* [Optimization](#Optimization)
+* [Theory](#Theory)
+* [Task-dependent Methods](#Task-dependent)
+
+
+
+## Survey.
 
 | Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation (In Chinese)            | Code |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
@@ -51,6 +59,41 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2022 | [Image Segmentation🌟](https://arxiv.org/abs/2004.05439)       | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | PR                                     | Meta-seg: A survey of meta-learning for image segmentation   | None |
 | 2022 | [Cyberspace Security](https://www.sciencedirect.com/science/article/pii/S2352864822000281) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | Digit. Commun. Netw.                   | Application of meta-learning in cyberspace security: A survey | None |
 | 2023 | [RL L2L🌟](https://arxiv.org/abs/2301.08028) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | arXiv 2023                   | A survey of meta-reinforcement learning | None |
+
+
+## Optimization
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation (In Chinese)            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2022 | [Sharp-MAML](https://arxiv.org/abs/2206.03996) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2022                                   | Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning                 | [CODE](https://github.com/mominabbass/sharp-maml) |
+| 2022 | [BMG](https://openreview.net/forum?id=b-ny3x071E5) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | Book | Bootstrapped Meta-Learning | None |
+
+
+## Theory
+
+
+## Domain generalization
+
+## Lifelong learning
+
+## Configuration transfer
+
+## Model compression
+
+
+## Summary of conference papers
+
+#### CVPR23
+
+### ICML23
+
+### ICCV23
+
+### NIPS23
+
+### ICLR23
+
+
+
 
 
 
