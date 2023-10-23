@@ -32,7 +32,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 🎁 **Notice**
 
-* ![❗CODE](https://img.shields.io/badge/-❗CODE-lightyellow) The paper does not provide code, I will write it myself and supplement it later.
+* ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) The paper does not provide code, I will write it myself and supplement it later.
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
 
@@ -41,8 +41,16 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 * [Survey](#Survey)
 * [Optimization](#Optimization)
 * [Theory](#Theory)
-* [Task-dependent Methods](#Task-dependent)
-
+* [Domain generalization](#Domain generalization)
+* [Lifelong learning](#Lifelong learning)
+* [Configuration transfer](#Configuration transfer)
+* [Model compression](#Model compression)
+* [Summary of conference papers](#Summary of conference papers)
+  * [CVPR23](#CVPR23)
+  * [ICML23](#ICML23)
+  * [ICCV23](#ICCV23)
+  * [NIPS23](#NIPS23)
+  * [ICLR23](#ICLR23)
 
 
 ## Survey.
@@ -69,7 +77,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation (In Chinese)            | Code |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
 | 2022 | [Sharp-MAML](https://arxiv.org/abs/2206.03996) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2022                                   | Sharp-MAML: Sharpness-Aware Model-Agnostic Meta Learning                 | [CODE](https://github.com/mominabbass/sharp-maml) |
-| 2022 | [BMG](https://openreview.net/forum?id=b-ny3x071E5) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICLR 2022 | Bootstrapped Meta-Learning | None |
+| 2022 | [BMG](https://openreview.net/forum?id=b-ny3x071E5) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICLR 2022 | Bootstrapped Meta-Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 
 
 ## Theory
@@ -86,7 +94,7 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 ## Summary of conference papers
 
-#### CVPR23
+### CVPR23
 
 ### ICML23
 
