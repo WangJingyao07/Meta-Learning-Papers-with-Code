@@ -99,9 +99,22 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2018 | [ConsiderMRL](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |  ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2018 | Some Considerations on Learning to Explore via Meta-Reinforcement Learning | [CODE](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |
 
 ## Domain generalization
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2018 | [L2G](https://arxiv.org/pdf/1711.01244.pdf) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | AAAI 2018    | Learning to Generalize: Meta-Learning for Domain Generalization  | [CODE](https://paperswithcode.com/paper/learning-to-generalize-meta-learning-for) |
+| 2019 | [MASF](https://paperswithcode.com/paper/domain-generalization-via-model-agnostic) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![metric-based](https://img.shields.io/badge/-Metric-red) | NIPS 2019    | Domain Generalization via Model-Agnostic Learning of Semantic Features  | [CODE](https://paperswithcode.com/paper/domain-generalization-via-model-agnostic) |
+| 2020 | [MLCA](https://paperswithcode.com/paper/meta-learning-curiosity-algorithms-1) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | ICLR 2020    | Meta-learning curiosity algorithms      | [CODE](https://paperswithcode.com/paper/meta-learning-curiosity-algorithms-1) |
 
 
 ## Lifelong learning
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2018 | [IL2L](https://paperswithcode.com/paper/incremental-learning-to-learn-with) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | arXiv 2018 | Incremental Learning-to-Learn with Statistical Guarantees  | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2019 | [VividNet](https://paperswithcode.com/paper/a-neural-symbolic-architecture-for-inverse) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![Graph](https://img.shields.io/badge/-Graph-blue) | arXiv 2019 | A Neural-Symbolic Architecture for Inverse Graphics Improved by Lifelong Meta-Learning  | [CODE](https://paperswithcode.com/paper/a-neural-symbolic-architecture-for-inverse) |
+| 2019 | [HSML](https://paperswithcode.com/paper/hierarchically-structured-meta-learning) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) ![Image](https://img.shields.io/badge/-CVimage-brightgreen) ![Text](https://img.shields.io/badge/-NLP-pink) | ICML 2019 | Hierarchically Structured Meta-learning  | [CODE](https://paperswithcode.com/paper/hierarchically-structured-meta-learning) |
+| 2019 | [Online-ML](https://paperswithcode.com/paper/online-meta-learning) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2019 | Online Meta-Learning  | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+
+
 
 ## Configuration transfer
 
