@@ -38,6 +38,8 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 🚩 **I will maintain three hours of paper reading, code repository maintenance and entry supplement every day 😉).**
 
+🚩 **All papers are provided in the corresponding folders 😉.**
+
 ## Topics
 
 * [Survey](#Survey)
@@ -97,6 +99,10 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2018 | [MLAP](https://arxiv.org/pdf/1711.01244.pdf) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2018    | Meta-learning by adjusting priors based on extended PAC-Bayes theory      | [CODE](https://github.com/ron-amit/meta-learning-adjusting-priors) |
 | 2018 | [learning algorithm approximation ](https://arxiv.org/pdf/1710.11622.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2018 | Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 | 2018 | [ConsiderMRL](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |  ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2018 | Some Considerations on Learning to Explore via Meta-Reinforcement Learning | [CODE](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |
+| 2022 | [UMAML](https://openreview.net/forum?id=3rULBvOJ8D2) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2022 | Unraveling Model-Agnostic Meta-Learning via The Adaptation Learning Rate | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2022 | [TRGB](https://openreview.net/forum?id=A3HHaEdqAJL) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2022 | Task Relatedness-Based Generalization Bounds for Meta Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+
+
 
 ## Domain generalization
 | Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
@@ -131,6 +137,12 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 ### CVPR23
 
 ### ICML23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 | [MLPS🌟](https://paperswithcode.com/paper/meta-learning-transferable-parameterized) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2023 | Meta-Learning Parameterized Skills  | [CODE](https://paperswithcode.com/paper/meta-learning-transferable-parameterized) |
+| 2023 | [Meta-Meta-Learning](https://paperswithcode.com/paper/learning-to-acquire-novel-cognitive-tasks) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2023 | Learning to acquire novel cognitive tasks with evolution, plasticity and meta-meta-learning  | [CODE](https://paperswithcode.com/paper/learning-to-acquire-novel-cognitive-tasks) |
+| 2023 | [BiDf-MKD🌟](https://paperswithcode.com/paper/learning-to-learn-from-apis-black-box-data) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2023 | Learning to Learn from APIs: Black-Box Data-Free Meta-Learning  | [CODE](https://paperswithcode.com/paper/learning-to-learn-from-apis-black-box-data) |
+| 2023 | [Meta-SAGE](https://paperswithcode.com/paper/meta-sage-scale-meta-learning-scheduled) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | ICML 2023 | Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization  | [CODE](https://paperswithcode.com/paper/meta-sage-scale-meta-learning-scheduled) |
 
 ### ICCV23
 
