@@ -172,62 +172,50 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 
 ## Libraries
-
-* [Higher by Facebook research](https://github.com/facebookresearch/higher)
-* [TorchMeta](https://github.com/tristandeleu/pytorch-meta)
-* [Learn2learn]( https://github.com/learnables/learn2learn)
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Higher by Facebook research](https://github.com/facebookresearch/higher) |
+| [TorchMeta](https://github.com/tristandeleu/pytorch-meta) |
+| [Learn2learn]( https://github.com/learnables/learn2learn) |
 
 
 ## Blogs
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Berkeley Artificial Intelligence Research blog](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/) |
+| [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) |
+| [Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/) |
+| [How to train your MAML: A step by step approach](https://www.bayeswatch.com/2018/11/30/HTYM/) |
+| [An Introduction to Meta-Learning](https://medium.com/walmartlabs/an-introduction-to-meta-learning-ced7072b80e7) |
+| [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a) |
+| [What’s New in Deep Learning Research: Understanding Meta-Learning](https://towardsdatascience.com/whats-new-in-deep-learning-research-understanding-meta-learning-91fef1295660) |
+| [Meta Reinforcement Learning Blog by Lilian Weng](https://lilianweng.github.io/lil-log/2019/06/23/meta-reinforcement-learning.html) |
 
-* [Berkeley Artificial Intelligence Research blog](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/)
-
-* [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html)
-
-* [Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/)
-
-* [How to train your MAML: A step by step approach](https://www.bayeswatch.com/2018/11/30/HTYM/)
-
-* [An Introduction to Meta-Learning](https://medium.com/walmartlabs/an-introduction-to-meta-learning-ced7072b80e7)
-
-* [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
-
-* [What’s New in Deep Learning Research: Understanding Meta-Learning](https://towardsdatascience.com/whats-new-in-deep-learning-research-understanding-meta-learning-91fef1295660) 
-
-* [Meta Reinforcement Learning Blog by Lilian Weng](https://lilianweng.github.io/lil-log/2019/06/23/meta-reinforcement-learning.html)
-
+ 
 ## Lecture Videos 
-
-* [Stanford CS330: Multi-Task and Meta-Learning, 2019 by Chelsea Finn](https://youtu.be/0rZtSwNOTQo)
-
-* [Meta Learning lecture by Soheil Feizi](https://www.youtube.com/watch?v=CRHKgOYXVe8)
-
-* [Chelsea Finn: Building Unsupervised Versatile Agents with Meta-Learning](https://www.youtube.com/watch?v=i05Fk4ebMY0)
-
-* [Sam Ritter: Meta-Learning to Make Smart Inferences from Small Data](https://www.youtube.com/watch?v=NpSpHlHpz6k)
-
-* [Model Agnostic Meta Learning by Siavash Khodadadeh](https://www.youtube.com/watch?v=wT45v8sIMDM)
-
-* [Meta Learning by Siraj Raval](https://www.youtube.com/watch?v=2z0ofe2lpz4)
-
-* [Meta Learning by Hugo Larochelle](https://www.youtube.com/watch?v=lz0ekIVfoFs) 
-
-* [Meta Learning and One-Shot Learning](https://www.youtube.com/watch?v=KUWywwvQv8E)
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Stanford CS330: Multi-Task and Meta-Learning, 2019 by Chelsea Finn](https://youtu.be/0rZtSwNOTQo) |
+| [Meta Learning lecture by Soheil Feizi](https://www.youtube.com/watch?v=CRHKgOYXVe8) |
+| [Chelsea Finn: Building Unsupervised Versatile Agents with Meta-Learning](https://www.youtube.com/watch?v=i05Fk4ebMY0) |
+| [Sam Ritter: Meta-Learning to Make Smart Inferences from Small Data](https://www.youtube.com/watch?v=NpSpHlHpz6k) |
+| [Model Agnostic Meta Learning by Siavash Khodadadeh](https://www.youtube.com/watch?v=wT45v8sIMDM) |
+| [Meta Learning by Siraj Raval](https://www.youtube.com/watch?v=2z0ofe2lpz4) |
+| [Meta Learning by Hugo Larochelle](https://www.youtube.com/watch?v=lz0ekIVfoFs)  |
+| [Meta Learning and One-Shot Learning](https://www.youtube.com/watch?v=KUWywwvQv8E) |
 
 
 
 
 ## Datasets
-
-Most popularly used datasets:
-
-* [Omniglot](https://github.com/brendenlake/omniglot) 
-* [mini-ImageNet](https://github.com/y2l/mini-imagenet-tools) 
-* [ILSVRC](http://image-net.org/challenges/LSVRC/)
-* [FGVC aircraft](http://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
-* [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
-
-Check several other datasets by Google [here.](https://github.com/google-research/meta-dataset)
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Omniglot](https://github.com/brendenlake/omniglot)  |
+| [mini-ImageNet](https://github.com/y2l/mini-imagenet-tools)  |
+| [ILSVRC](http://image-net.org/challenges/LSVRC/) |
+| [FGVC aircraft](http://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/) |
+| [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) |
+| Check several other datasets by Google [here.](https://github.com/google-research/meta-dataset) |
 
 
 ## Workshops
