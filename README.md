@@ -174,14 +174,15 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 ## Libraries
 | Link                                                       | 
 | --------------------------------------------------------------- | 
+| [Awesome-META+](https://github.com/WangJingyao07/MetaLearning-Lab) |
 | [Higher by Facebook research](https://github.com/facebookresearch/higher) |
 | [TorchMeta](https://github.com/tristandeleu/pytorch-meta) |
 | [Learn2learn]( https://github.com/learnables/learn2learn) |
 
-
 ## Blogs
 | Link                                                       | 
 | --------------------------------------------------------------- | 
+| [Multiple Meta-learning Papers](https://www.zhihu.com/people/wang-dou-ya-11/posts) |
 | [Berkeley Artificial Intelligence Research blog](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/) |
 | [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) |
 | [Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/) |
@@ -219,24 +220,26 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 
 
 ## Workshops
-
-* [MetaLearn 2017](http://metalearning.ml/2017/)
-* [MetaLearn 2018](http://metalearning.ml/2018/)
-* [MetaLearn 2019](http://metalearning.ml/2019/)
-* [MetaLearn 2020](https://meta-learn.github.io/2020/)
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [MetaLearn 2017](http://metalearning.ml/2017/) |
+| [MetaLearn 2018](http://metalearning.ml/2018/) |
+| [MetaLearn 2019](http://metalearning.ml/2019/) |
+| [MetaLearn 2020](https://meta-learn.github.io/2020/) |
 
 
 ## Researchers
-
-* [Chelsea Finn](http://people.eecs.berkeley.edu/~cbfinn/), _UC Berkeley_
-* [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/), _UC Berkeley_
-* [Erin Grant](https://people.eecs.berkeley.edu/~eringrant/),  _UC Berkeley_
-* [Raia Hadsell](http://raiahadsell.com/index.html), _DeepMind_
-* [Misha Denil](http://mdenil.com/), _DeepMind_
-* [Adam Santoro](https://scholar.google.com/citations?hl=en&user=evIkDWoAAAAJ&view_op=list_works&sortby=pubdate), _DeepMind_
-* [Sachin Ravi](http://www.cs.princeton.edu/~sachinr/), _Princeton University_
-* [David Abel](https://david-abel.github.io/), _Brown University_
-* [Brenden Lake](https://cims.nyu.edu/~brenden/), _Facebook AI Research_
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Chelsea Finn](http://people.eecs.berkeley.edu/~cbfinn/), _UC Berkeley_ |
+| [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/), _UC Berkeley_ |
+| [Erin Grant](https://people.eecs.berkeley.edu/~eringrant/),  _UC Berkeley_ |
+| [Raia Hadsell](http://raiahadsell.com/index.html), _DeepMind_ |
+| [Misha Denil](http://mdenil.com/), _DeepMind_ |
+| [Adam Santoro](https://scholar.google.com/citations?hl=en&user=evIkDWoAAAAJ&view_op=list_works&sortby=pubdate), _DeepMind_ |
+| [Sachin Ravi](http://www.cs.princeton.edu/~sachinr/), _Princeton University_ |
+| [David Abel](https://david-abel.github.io/), _Brown University_ |
+| [Brenden Lake](https://cims.nyu.edu/~brenden/), _Facebook AI Research_ |
 
 
 
