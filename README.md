@@ -33,6 +33,8 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 🎁 **Notice**
 
 * ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) The paper does not provide code, I will write it myself and supplement it later.
+* ![❗Oral](https://img.shields.io/badge/-❗Oral-magenta) The Oral paper.
+* ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta) The Oral paper.
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
 
@@ -136,9 +138,6 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2021 | [MARK🌟](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Video](https://img.shields.io/badge/-CVvideo-green) | NIPS 2021 | Optimizing Reusable Knowledge for Continual Learning via Metalearning | [CODE](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) |
 
 
-
-## Configuration transfer
-
 ## Model compression
 
 
@@ -165,11 +164,44 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2023 | [Memory-Based Meta-Learning](https://paperswithcode.com/paper/memory-based-meta-learning-on-non-stationary) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Video](https://img.shields.io/badge/-CVvideo-green) | ICML 2023 | Memory-Based Meta-Learning on Non-Stationary Distributions  | [CODE](https://github.com/google-deepmind/nonstationary_mbml) |
 
 ### ICCV23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 |  |  | ICCV 2023 |  |  |
+| 2023 |  |  | ICCV 2023 |  |  |
+| 2023 |  |  | ICCV 2023 |  |  |
+| 2023 |  |  | ICCV 2023 |  |  |
+| 2023 |  |  | ICCV 2023 |  |  |
+| 2023 |  |  | ICCV 2023 |  |  |
 
 ### NIPS23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 | [Conformal-Meta]() |  | NIPS 2023 | Conformal Meta-learners for Predictive Inference of Individual Treatment Effects ![❗Oral](https://img.shields.io/badge/-❗Oral-yellow) | [CODE](https://github.com/AlaaLab/conformal-metalearners)|
+| 2023 | [MGDD](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)  | NIPS 2023 | Online Constrained Meta-Learning: Provable Guarantees for Generalization ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [PINNs](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | MGDD: A Meta Generator for Fast Dataset Distillation ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [OCML](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Hypernetwork-based Meta-Learning for Low-Rank Physics-Informed Neural Networks ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Online Control](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Online Control for Meta-optimization ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [SCARF](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Prefix-Tree Decoding for Predicting Mass Spectra from Molecules ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://metadriverse.github.io/pvp) |
+| 2023 | [HNPs](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Learning from Active Human Involvement through Proxy Value Propagation ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Zero-shot causal learning](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Episodic Multi-Task Learning with Heterogeneous Neural Processes ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://github.com/snap-stanford/caml/) |
+| 2023 | [Zero-shot causal learning](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Zero-shot causal learning ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | Structure-free Graph Condensation: From Large-scale Graphs to Condensed Graph-free Data ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Pick-up-to-Learn](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | The Pick-to-Learn Algorithm: Empowering Compression for Tight Generalization Bounds and Improved Post-training Performance ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [SimFBO](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel Learning ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [EmbodiedGPT](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  | NIPS 2023 | EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch) |
+
+
 
 ### ICLR23
-
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
+| 2023 |  |  | ICLR 2023 |  |  |
 
 ## Libraries
 | Link                                                       | 
