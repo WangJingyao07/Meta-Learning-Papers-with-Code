@@ -33,6 +33,8 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 🎁 **Notice**
 
 * ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) The paper does not provide code, I will write it myself and supplement it later.
+* ![❗Oral](https://img.shields.io/badge/-❗Oral-magenta) The Oral paper.
+* ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta) The Oral paper.
 
 🚩 **I have marked some recommended papers with 🌟/🎈 (SOTA methods/Just my personal preference 😉).**
 
@@ -52,9 +54,13 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 * [Summary of conference papers](#Summary-of-conference-papers)
   * [CVPR23](#CVPR23)
   * [ICML23](#ICML23)
-  * [ICCV23](#ICCV23)
   * [NIPS23](#NIPS23)
   * [ICLR23](#ICLR23)
+* [Libraries](#Libraries)
+* [Blogs](#Blogs)
+* [Lecture Videos](#Lecture Videos)
+* [Datasets](#Datasets)
+* [Researchers](#Researchers)
 
 
 ## Survey.
@@ -101,8 +107,13 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2018 | [ConsiderMRL](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |  ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2018 | Some Considerations on Learning to Explore via Meta-Reinforcement Learning | [CODE](https://paperswithcode.com/paper/some-considerations-on-learning-to-explore#code) |
 | 2022 | [UMAML](https://openreview.net/forum?id=3rULBvOJ8D2) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2022 | Unraveling Model-Agnostic Meta-Learning via The Adaptation Learning Rate | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 | 2022 | [TRGB](https://openreview.net/forum?id=A3HHaEdqAJL) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2022 | Task Relatedness-Based Generalization Bounds for Meta Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
-
-
+| 2021 | [PAC-Bayes](https://arxiv.org/pdf/2106.03542.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NeurIPS 2021 | How Tight Can PAC-Bayes be in the Small Data Regime? | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2021 | [meta_tr_val_split](https://arxiv.org/pdf/2106.15615.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![metric-based](https://img.shields.io/badge/-Metric-red) | ICML 2021 | A Representation Learning Perspective on the Importance of Train-Validation Splitting in Meta-Learning | [CODE](https://paperswithcode.com/paper/a-representation-learning-perspective-on-the) |
+| 2021 | [stocBiO](https://paperswithcode.com/paper/provably-faster-algorithms-for-bilevel-1) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2021 | Bilevel Optimization: Convergence Analysis and Enhanced Design | [CODE](https://paperswithcode.com/paper/provably-faster-algorithms-for-bilevel-1) |
+| 2022 | [First active ML](https://www.comp.nus.edu.sg/~lowkh/pubs/aistats2022.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | AISTATS 2022 | Near-Optimal Task Selection with Mutual Information for Meta-Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2022 | [LTR](https://arxiv.org/abs/2201.07348) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | AISTATS 2022 | Learning Tensor Representations for Meta-Learning | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2022 | [BayesianMAML or MAML?](https://chentianyi1991.github.io/bamaml_aistats2022.pdf) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | AISTATS 2022 | Is Bayesian Model-Agnostic Meta Learning Better than Model-Agnostic Meta Learning, Provably? | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [​​What learning algorithm is in-context learning?](https://openreview.net/group?id=ICLR.cc/2023/Conference) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | ICLR 2023 | ​​What learning algorithm is in-context learning? Investigations with linear models![❗Notable-top-5Percent](https://img.shields.io/badge/-❗Notable_top_5Percent-magenta) | [CODE](https://github.com/ekinakyurek/google-research/tree/master/incontext) |
 
 ## Domain generalization
 | Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
@@ -123,11 +134,8 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2019 | [Bayes-MAML](https://paperswithcode.com/paper/online-gradient-based-mixtures-for-transfer) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2019 | Reconciling meta-learning and continual learning with online mixtures of tasks  | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
 | 2019 | [ONL-ONL](https://paperswithcode.com/paper/online-within-online-meta-learning) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2019 | Online-Within-Online Meta-Learning | [CODE](https://paperswithcode.com/paper/online-within-online-meta-learning) |
 | 2021 | [LWTL🌟](https://paperswithcode.com/paper/learning-where-to-learn-gradient-sparsity-in) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2021 | Learning where to learn: Gradient sparsity in meta and continual learning  | [CODE](https://paperswithcode.com/paper/learning-where-to-learn-gradient-sparsity-in) |
-| 2021 | [MARK🌟](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2021 | Optimizing Reusable Knowledge for Continual Learning via Metalearning | [CODE](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) |
+| 2021 | [MARK🌟](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Video](https://img.shields.io/badge/-CVvideo-green) | NIPS 2021 | Optimizing Reusable Knowledge for Continual Learning via Metalearning | [CODE](https://paperswithcode.com/paper/optimizing-reusable-knowledge-for-continual) |
 
-
-
-## Configuration transfer
 
 ## Model compression
 
@@ -135,6 +143,14 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 ## Summary of conference papers
 
 ### CVPR23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 | [PPL🌟](https://dblp.org/db/conf/cvpr/cvpr2023.html) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | CVPR 2023 | A Meta-Learning Approach to Predicting Performance and Data Requirements | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Meta-Explore](https://dblp.org/db/conf/cvpr/cvpr2023.html) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | CVPR 2023 | Meta-Explore: Exploratory Hierarchical Vision-and-Language Navigation Using Scene Object Spectrum Grounding | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Meta-Tuning🌟](https://dblp.org/db/conf/cvpr/cvpr2023.html) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | CVPR 2023 | Meta-Tuning Loss Functions and Data Augmentation for Few-Shot Object Detection | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Meta-Causal-learning🌟](https://dblp.org/db/conf/cvpr/cvpr2023.html) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | CVPR 2023 | Meta-Tuning Loss Functions and Data Augmentation for Few-Shot Object Detection | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow)  |
+| 2023 | [Model-Scale Agnostic🌟](https://dblp.org/db/conf/cvpr/cvpr2023.html) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | CVPR 2023 | Architecture, Dataset and Model-Scale Agnostic Data-free Meta-Learning. | [CODE](https://paperswithcode.com/paper/architecture-dataset-and-model-scale-agnostic) |
+
 
 ### ICML23
 | Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
@@ -143,16 +159,111 @@ It is worth noting that the experiments of some frameworks consist of multiple d
 | 2023 | [Meta-Meta-Learning](https://paperswithcode.com/paper/learning-to-acquire-novel-cognitive-tasks) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2023 | Learning to acquire novel cognitive tasks with evolution, plasticity and meta-meta-learning  | [CODE](https://paperswithcode.com/paper/learning-to-acquire-novel-cognitive-tasks) |
 | 2023 | [BiDf-MKD🌟](https://paperswithcode.com/paper/learning-to-learn-from-apis-black-box-data) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICML 2023 | Learning to Learn from APIs: Black-Box Data-Free Meta-Learning  | [CODE](https://paperswithcode.com/paper/learning-to-learn-from-apis-black-box-data) |
 | 2023 | [Meta-SAGE](https://paperswithcode.com/paper/meta-sage-scale-meta-learning-scheduled) | ![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | ICML 2023 | Meta-SAGE: Scale Meta-Learning Scheduled Adaptation with Guided Exploration for Mitigating Scale Shift on Combinatorial Optimization  | [CODE](https://paperswithcode.com/paper/meta-sage-scale-meta-learning-scheduled) |
+| 2023 | [RepVerb](https://paperswithcode.com/paper/effective-structured-prompting-by-meta) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Text](https://img.shields.io/badge/-NLP-pink)![Image](https://img.shields.io/badge/-CVimage-brightgreen) | ICML 2023 | Effective Structured Prompting by Meta-Learning and Representative Verbalizer  | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Memory-Based Meta-Learning](https://paperswithcode.com/paper/memory-based-meta-learning-on-non-stationary) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![optimization-based](https://img.shields.io/badge/-Optimization-blue)![Video](https://img.shields.io/badge/-CVvideo-green) | ICML 2023 | Memory-Based Meta-Learning on Non-Stationary Distributions  | [CODE](https://github.com/google-deepmind/nonstationary_mbml) |
 
-### ICCV23
 
 
 
 ### NIPS23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 | [Conformal-Meta🌟](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-oral) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Conformal Meta-learners for Predictive Inference of Individual Treatment Effects ![❗Oral](https://img.shields.io/badge/-❗Oral-magenta) | [CODE](https://github.com/AlaaLab/conformal-metalearners)|
+| 2023 | [MGDD](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)  | NIPS 2023 | Online Constrained Meta-Learning: Provable Guarantees for Generalization ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [PINNs](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | MGDD: A Meta Generator for Fast Dataset Distillation ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [OCML](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Hypernetwork-based Meta-Learning for Low-Rank Physics-Informed Neural Networks ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Online Control](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Online Control for Meta-optimization ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [SCARF](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Prefix-Tree Decoding for Predicting Mass Spectra from Molecules ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://metadriverse.github.io/pvp) |
+| 2023 | [HNPs](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Learning from Active Human Involvement through Proxy Value Propagation ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Zero-shot causal learning](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) |  ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue)| NIPS 2023 | Episodic Multi-Task Learning with Heterogeneous Neural Processes ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://github.com/snap-stanford/caml/) |
+| 2023 | [Zero-shot causal learning](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Zero-shot causal learning ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Structure-free Graph Condensation](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | Structure-free Graph Condensation: From Large-scale Graphs to Condensed Graph-free Data ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Pick-up-to-Learn](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | The Pick-to-Learn Algorithm: Empowering Compression for Tight Generalization Bounds and Improved Post-training Performance ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [SimFBO](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | SimFBO: Towards Simple, Flexible and Communication-efficient Federated Bilevel Learning ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [EmbodiedGPT](https://openreview.net/group?id=NeurIPS.cc/2023/Conference#tab-accept-spotlight) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | NIPS 2023 | EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought ![❗Spotlight](https://img.shields.io/badge/-❗Spotlight-magenta)| [CODE](https://github.com/EmbodiedGPT/EmbodiedGPT_Pytorch) |
+
+
 
 ### ICLR23
+| Date | Method                                                       | Type                                                    | Conference                             | Paper Title and Paper Interpretation            | Code |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ | ---- |
+| 2023 | [Transfer NAS](https://openreview.net/group?id=ICLR.cc/2023/Conference) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2023 | Transfer NAS with Meta-learned Bayesian Surrogates ![❗NotableTop5Percent](https://img.shields.io/badge/-❗NotableTop5Percent-magenta) |  ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Betty🌟](https://openreview.net/group?id=ICLR.cc/2023/Conference) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) ![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2023 | Betty: An Automatic Differentiation Library for Multilevel Optimization ![❗NotableTop5Percent](https://img.shields.io/badge/-❗NotableTop5Percent-magenta) | [CODE](https://github.com/leopard-ai/betty) |
+| 2023 | [​​What learning algorithm is in-context learning?](https://openreview.net/group?id=ICLR.cc/2023/Conference) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | ICLR 2023 | ​​What learning algorithm is in-context learning? Investigations with linear models ![❗NotableTop5Percent](https://img.shields.io/badge/-❗NotableTop5Percent-magenta) | [CODE](https://github.com/ekinakyurek/google-research/tree/master/incontext) |
+| 2023 | [Learnable Behavior Control🌟](https://openreview.net/group?id=ICLR.cc/2023/Conference) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white)  | ICLR 2023 | Learnable Behavior Control: Breaking Atari Human World Records via Sample-Efficient Behavior Selection!![❗NotableTop5Percent](https://img.shields.io/badge/-❗NotableTop5Percent-magenta) | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [Metadata Archaeology](https://openreview.net/group?id=ICLR.cc/2023/Conference#notable-top-25-) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray) | ICLR 2023 | Metadata Archaeology: Unearthing Data Subsets by Leveraging Training Dynamics ![❗NotableTop25Percent](https://img.shields.io/badge/-❗NotableTop25Percent-magenta) | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [CMDP-within-online](https://openreview.net/group?id=ICLR.cc/2023/Conference#notable-top-25-) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![Meta-Reinforcement-Learning](https://img.shields.io/badge/-MRL-white) | ICLR 2023 | A CMDP-within-online framework for Meta-Safe Reinforcement Learning ![❗NotableTop25Percent](https://img.shields.io/badge/-❗NotableTop25Percent-magenta) | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+| 2023 | [MARS](https://openreview.net/group?id=ICLR.cc/2023/Conference#notable-top-25-) | ![Meta-Learning](https://img.shields.io/badge/-ML-gray)![optimization-based](https://img.shields.io/badge/-Optimization-blue) | ICLR 2023 | MARS: Meta-learning as Score Matching in the Function Space ![❗NotableTop25Percent](https://img.shields.io/badge/-❗NotableTop25Percent-magenta) | ![❗CODE](https://img.shields.io/badge/-❗CODE-yellow) |
+
+## Libraries
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Awesome-META+](https://github.com/WangJingyao07/MetaLearning-Lab) |
+| [Higher by Facebook research](https://github.com/facebookresearch/higher) |
+| [TorchMeta](https://github.com/tristandeleu/pytorch-meta) |
+| [Learn2learn]( https://github.com/learnables/learn2learn) |
+
+## Blogs
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Multiple Meta-learning Papers](https://www.zhihu.com/people/wang-dou-ya-11/posts) |
+| [Berkeley Artificial Intelligence Research blog](https://bair.berkeley.edu/blog/2017/07/18/learning-to-learn/) |
+| [Meta-Learning: Learning to Learn Fast](https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html) |
+| [Meta-Reinforcement Learning](https://blog.floydhub.com/meta-rl/) |
+| [How to train your MAML: A step by step approach](https://www.bayeswatch.com/2018/11/30/HTYM/) |
+| [An Introduction to Meta-Learning](https://medium.com/walmartlabs/an-introduction-to-meta-learning-ced7072b80e7) |
+| [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a) |
+| [What’s New in Deep Learning Research: Understanding Meta-Learning](https://towardsdatascience.com/whats-new-in-deep-learning-research-understanding-meta-learning-91fef1295660) |
+| [Meta Reinforcement Learning Blog by Lilian Weng](https://lilianweng.github.io/lil-log/2019/06/23/meta-reinforcement-learning.html) |
+
+ 
+## Lecture Videos 
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Stanford CS330: Multi-Task and Meta-Learning, 2019 by Chelsea Finn](https://youtu.be/0rZtSwNOTQo) |
+| [Meta Learning lecture by Soheil Feizi](https://www.youtube.com/watch?v=CRHKgOYXVe8) |
+| [Chelsea Finn: Building Unsupervised Versatile Agents with Meta-Learning](https://www.youtube.com/watch?v=i05Fk4ebMY0) |
+| [Sam Ritter: Meta-Learning to Make Smart Inferences from Small Data](https://www.youtube.com/watch?v=NpSpHlHpz6k) |
+| [Model Agnostic Meta Learning by Siavash Khodadadeh](https://www.youtube.com/watch?v=wT45v8sIMDM) |
+| [Meta Learning by Siraj Raval](https://www.youtube.com/watch?v=2z0ofe2lpz4) |
+| [Meta Learning by Hugo Larochelle](https://www.youtube.com/watch?v=lz0ekIVfoFs)  |
+| [Meta Learning and One-Shot Learning](https://www.youtube.com/watch?v=KUWywwvQv8E) |
 
 
+
+
+## Datasets
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Omniglot](https://github.com/brendenlake/omniglot)  |
+| [mini-ImageNet](https://github.com/y2l/mini-imagenet-tools)  |
+| [ILSVRC](http://image-net.org/challenges/LSVRC/) |
+| [FGVC aircraft](http://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/) |
+| [Caltech-UCSD Birds-200-2011](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) |
+| Check several other datasets by Google [here.](https://github.com/google-research/meta-dataset) |
+
+
+## Workshops
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [MetaLearn 2017](http://metalearning.ml/2017/) |
+| [MetaLearn 2018](http://metalearning.ml/2018/) |
+| [MetaLearn 2019](http://metalearning.ml/2019/) |
+| [MetaLearn 2020](https://meta-learn.github.io/2020/) |
+
+
+## Researchers
+| Link                                                       | 
+| --------------------------------------------------------------- | 
+| [Chelsea Finn](http://people.eecs.berkeley.edu/~cbfinn/), _UC Berkeley_ |
+| [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/), _UC Berkeley_ |
+| [Erin Grant](https://people.eecs.berkeley.edu/~eringrant/),  _UC Berkeley_ |
+| [Raia Hadsell](http://raiahadsell.com/index.html), _DeepMind_ |
+| [Misha Denil](http://mdenil.com/), _DeepMind_ |
+| [Adam Santoro](https://scholar.google.com/citations?hl=en&user=evIkDWoAAAAJ&view_op=list_works&sortby=pubdate), _DeepMind_ |
+| [Sachin Ravi](http://www.cs.princeton.edu/~sachinr/), _Princeton University_ |
+| [David Abel](https://david-abel.github.io/), _Brown University_ |
+| [Brenden Lake](https://cims.nyu.edu/~brenden/), _Facebook AI Research_ |
 
 
 
